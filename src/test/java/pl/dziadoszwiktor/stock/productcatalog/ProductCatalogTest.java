@@ -1,6 +1,7 @@
 package pl.dziadoszwiktor.stock.productcatalog;
 
 import org.junit.jupiter.api.Test;
+import pl.dziadoszwiktor.stock.productcatalog.ProductCatalogFacade;
 
 import java.math.BigDecimal;
 import java.util.Arrays;
