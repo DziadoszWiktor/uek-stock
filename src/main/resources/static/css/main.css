@@ -1,0 +1,14 @@
+.products__list {
+    justify-content: space-evenly;
+    display: flex;
+    list-style: none;
+}
+
+.product__price {
+    display: block;
+}
+.product__add-to-basket {
+    padding: 1rem;
+    width: 100%;
+    font-size: 2rem;
+}
