@@ -3,15 +3,16 @@ package pl.wiktordziadosz.uekstock;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import pl.wiktordziadosz.uekstock.payment.PayU;
 import pl.wiktordziadosz.uekstock.productcatalog.Product;
 import pl.wiktordziadosz.uekstock.productcatalog.ProductCatalog;
 import pl.wiktordziadosz.uekstock.productcatalog.ProductRepository;
-import pl.jkanclerz.uekstock.sales.*;
-import pl.wiktordziadosz.uekstock.sales.ProductDetailsProvider;
+import pl.wiktordziadosz.uekstock.sales.*;
 import pl.wiktordziadosz.uekstock.sales.offerting.OfferMaker;
-import pl.wiktordziadosz.uekstock.sales.BasketStorage;
-import pl.wiktordziadosz.uekstock.sales.ProductDetails;
-import pl.wiktordziadosz.uekstock.sales.SalesFacade;
+import pl.wiktordziadosz.uekstock.sales.ordering.InMemoryReservationStorage;
+import pl.wiktordziadosz.uekstock.sales.ordering.ReservationRepository;
+import pl.wiktordziadosz.uekstock.sales.payment.PayUPaymentGateway;
+import pl.wiktordziadosz.uekstock.sales.*;
 
 import java.math.BigDecimal;
 import java.util.Arrays;
@@ -54,12 +55,13 @@ public class App {
     }
 
     @Bean
-    public SalesFacade createSalesFacade(ProductDetailsProvider productDetailsProvider) {
+    public SalesFacade createSalesFacade(ProductDetailsProvider productDetailsProvider, PayU payU) {
         return new SalesFacade(
                 new BasketStorage(),
                 productDetailsProvider,
-                new OfferMaker(productDetailsProvider)
-        );
+                new OfferMaker(productDetailsProvider),
+                new InMemoryReservationStorage(),
+                new PayUPaymentGateway(payU));
     }
 
     @Bean
@@ -71,5 +73,10 @@ public class App {
                     product.getPrice()
             );
         };
+    }
+
+    @Bean
+    public JpaReservationStorage createJpaReervationStorage(ReservationRepository reservationRepository) {
+        return new JpaReservationStorage(reservationRepository);
     }
 }

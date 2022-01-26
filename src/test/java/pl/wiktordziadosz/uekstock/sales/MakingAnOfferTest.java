@@ -4,6 +4,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import pl.wiktordziadosz.uekstock.sales.offerting.Offer;
 import pl.wiktordziadosz.uekstock.sales.offerting.OfferMaker;
+import pl.wiktordziadosz.uekstock.sales.ordering.InMemoryReservationStorage;
+import pl.wiktordziadosz.uekstock.sales.payment.DummyPaymentGateway;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -52,7 +54,7 @@ public class MakingAnOfferTest {
         return new SalesFacade(
                 basketStorage,
                 productDetailsProvider,
-                new OfferMaker(productDetailsProvider)
-        );
+                new OfferMaker(productDetailsProvider),
+                new InMemoryReservationStorage(), new DummyPaymentGateway());
     }
 }

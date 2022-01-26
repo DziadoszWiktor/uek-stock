@@ -3,6 +3,8 @@ package pl.wiktordziadosz.uekstock.sales;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import pl.wiktordziadosz.uekstock.sales.offerting.OfferMaker;
+import pl.wiktordziadosz.uekstock.sales.ordering.InMemoryReservationStorage;
+import pl.wiktordziadosz.uekstock.sales.payment.DummyPaymentGateway;
 
 import java.math.BigDecimal;
 
@@ -92,8 +94,8 @@ public class CollectingProductsTest {
         return new SalesFacade(
                 basketStorage,
                 productDetailsProvider,
-                new OfferMaker(productDetailsProvider)
-        );
+                new OfferMaker(productDetailsProvider),
+                new InMemoryReservationStorage(), new DummyPaymentGateway());
     }
 
     private String thereIsCustomer(String customerName) {
