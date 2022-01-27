@@ -51,6 +51,14 @@ public class App {
         );
         productCatalog.publish(productId3);
 
+        String productId4 = productCatalog.addProduct(
+                "Example product 4",
+                BigDecimal.valueOf(30.10),
+                Arrays.asList("tag2"),
+                "https://picsum.photos/302/202"
+        );
+        productCatalog.publish(productId4);
+
         return productCatalog;
     }
 

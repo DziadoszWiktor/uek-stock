@@ -2,16 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My uek store</title>
+    <title>UEK Store</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/main.css"/>
 </head>
 <body>
-    <h1>My uek store</h1>
-    <div class="basket">
-        Total: <span class="basket__total">0 PLN</span>
-        Items count: <span class="basket__items-count">0 Items</span>
-        <button class="basket__checkout">CHECKOUT</button>
+
+    <!-- Navigation bar with social media icons -->
+    <div class="w3-bar w3-black w3-hide-small">
+        <a href="#" class="w3-bar-item w3-button"><h1 class="title">My uek store</h1></a>
+        <!-- <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>-->
+        <a href="#" class="w3-bar-item w3-button"><h3 class="login_button">login</h3></a>
+        <div class="basket w3-right">
+            Total: <span class="basket__total">0 PLN</span>
+            Items count: <span class="basket__items-count">0 Items</span>
+            <button class="basket__checkout">CHECKOUT</button>
+        </div>
     </div>
+
     <ul id="products" class="products__list"></ul>
 
     <div class="checkout__layer" style="display: none">
