@@ -1,4 +1,4 @@
-package pl.wiktordziadosz.uekstock.sales;
+package pl.wiktordziadosz.uekstock.sales.basket;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,6 +19,8 @@ public class Basket {
     }
 
     public void add(BasketItem basketItem) {
+        //Try to fix itAllowToAddSameProductMultipleTime()
+        // if (!items.contains(basketItem) { items.add(basketItems;})
         items.add(basketItem);
     }
 

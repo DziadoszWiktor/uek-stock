@@ -2,6 +2,9 @@ package pl.wiktordziadosz.uekstock.sales;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import pl.wiktordziadosz.uekstock.sales.basket.Basket;
+import pl.wiktordziadosz.uekstock.sales.basket.BasketStorage;
+import pl.wiktordziadosz.uekstock.sales.catalog.ProductDetails;
 import pl.wiktordziadosz.uekstock.sales.offerting.OfferMaker;
 import pl.wiktordziadosz.uekstock.sales.ordering.InMemoryReservationStorage;
 import pl.wiktordziadosz.uekstock.sales.payment.DummyPaymentGateway;

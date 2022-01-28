@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.web.client.RestTemplate;
 
 import java.math.BigDecimal;
-import java.util.Collections;
+import java.util.Arrays;
 import java.util.UUID;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -36,7 +36,10 @@ public class PayUTest {
                 .totalAmount(BigDecimal.valueOf(10.10).multiply(BigDecimal.valueOf(100)).intValue())
                 .extOrderId(UUID.randomUUID().toString())
                 .buyer(new RegisterPaymentRequest.Buyer("john.doe@example.com", "john", "doe"))
-                .products(Collections.emptyList())
+                .products(Arrays.asList(
+                        new RegisterPaymentRequest.Product("product 1", BigDecimal.valueOf(10.10).intValue(), 1),
+                        new RegisterPaymentRequest.Product("product 2", BigDecimal.valueOf(20.10).intValue(), 1)
+                ))
                 .build();
     }
 }

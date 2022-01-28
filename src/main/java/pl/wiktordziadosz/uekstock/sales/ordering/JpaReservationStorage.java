@@ -1,8 +1,4 @@
-package pl.wiktordziadosz.uekstock.sales;
-
-import pl.wiktordziadosz.uekstock.sales.ordering.Reservation;
-import pl.wiktordziadosz.uekstock.sales.ordering.ReservationRepository;
-import pl.wiktordziadosz.uekstock.sales.ordering.ReservationStorage;
+package pl.wiktordziadosz.uekstock.sales.ordering;
 
 import java.util.Optional;
 

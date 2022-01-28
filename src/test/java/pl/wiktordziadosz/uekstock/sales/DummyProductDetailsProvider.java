@@ -1,5 +1,8 @@
 package pl.wiktordziadosz.uekstock.sales;
 
+import pl.wiktordziadosz.uekstock.sales.catalog.ProductDetails;
+import pl.wiktordziadosz.uekstock.sales.catalog.ProductDetailsProvider;
+
 import java.util.HashMap;
 import java.util.Map;
 

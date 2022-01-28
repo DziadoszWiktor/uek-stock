@@ -8,11 +8,15 @@ import pl.wiktordziadosz.uekstock.productcatalog.Product;
 import pl.wiktordziadosz.uekstock.productcatalog.ProductCatalog;
 import pl.wiktordziadosz.uekstock.productcatalog.ProductRepository;
 import pl.wiktordziadosz.uekstock.sales.*;
+import pl.wiktordziadosz.uekstock.sales.SalesFacade;
+import pl.wiktordziadosz.uekstock.sales.basket.BasketStorage;
+import pl.wiktordziadosz.uekstock.sales.catalog.ProductDetails;
+import pl.wiktordziadosz.uekstock.sales.catalog.ProductDetailsProvider;
 import pl.wiktordziadosz.uekstock.sales.offerting.OfferMaker;
 import pl.wiktordziadosz.uekstock.sales.ordering.InMemoryReservationStorage;
+import pl.wiktordziadosz.uekstock.sales.ordering.JpaReservationStorage;
 import pl.wiktordziadosz.uekstock.sales.ordering.ReservationRepository;
 import pl.wiktordziadosz.uekstock.sales.payment.PayUPaymentGateway;
-import pl.wiktordziadosz.uekstock.sales.*;
 
 import java.math.BigDecimal;
 import java.util.Arrays;
@@ -53,9 +57,9 @@ public class App {
 
         String productId4 = productCatalog.addProduct(
                 "Example product 4",
-                BigDecimal.valueOf(30.10),
+                BigDecimal.valueOf(40.10),
                 Arrays.asList("tag2"),
-                "https://picsum.photos/302/202"
+                "https://picsum.photos/401/201"
         );
         productCatalog.publish(productId4);
 

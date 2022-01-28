@@ -1,6 +1,7 @@
 package pl.wiktordziadosz.uekstock.sales;
 
 import org.springframework.web.bind.annotation.*;
+import pl.wiktordziadosz.uekstock.sales.datatransferobject.CustomerData;
 import pl.wiktordziadosz.uekstock.sales.offerting.Offer;
 import pl.wiktordziadosz.uekstock.sales.ordering.ReservationDetails;
 

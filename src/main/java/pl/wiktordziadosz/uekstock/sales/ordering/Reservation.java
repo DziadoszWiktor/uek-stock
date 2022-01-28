@@ -1,7 +1,7 @@
 package pl.wiktordziadosz.uekstock.sales.ordering;
 
-import pl.wiktordziadosz.uekstock.sales.BasketItem;
-import pl.wiktordziadosz.uekstock.sales.CustomerData;
+import pl.wiktordziadosz.uekstock.sales.basket.BasketItem;
+import pl.wiktordziadosz.uekstock.sales.datatransferobject.CustomerData;
 import pl.wiktordziadosz.uekstock.sales.offerting.Offer;
 import pl.wiktordziadosz.uekstock.sales.payment.PaymentGateway;
 

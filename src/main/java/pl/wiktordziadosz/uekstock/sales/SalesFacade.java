@@ -1,6 +1,12 @@
 package pl.wiktordziadosz.uekstock.sales;
 
 
+import pl.wiktordziadosz.uekstock.sales.basket.Basket;
+import pl.wiktordziadosz.uekstock.sales.basket.BasketItem;
+import pl.wiktordziadosz.uekstock.sales.basket.BasketStorage;
+import pl.wiktordziadosz.uekstock.sales.catalog.ProductDetails;
+import pl.wiktordziadosz.uekstock.sales.catalog.ProductDetailsProvider;
+import pl.wiktordziadosz.uekstock.sales.datatransferobject.CustomerData;
 import pl.wiktordziadosz.uekstock.sales.offerting.Offer;
 import pl.wiktordziadosz.uekstock.sales.offerting.OfferMaker;
 import pl.wiktordziadosz.uekstock.sales.ordering.InMemoryReservationStorage;

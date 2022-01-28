@@ -1,4 +1,4 @@
-package pl.wiktordziadosz.uekstock.sales;
+package pl.wiktordziadosz.uekstock.sales.basket;
 
 import java.util.HashMap;
 import java.util.Map;

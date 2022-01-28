@@ -4,18 +4,54 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b44a002d-8007-4d3b-8cdf-c18c2011cc7a" name="Changes" comment="">
+    <list default="true" id="a2f397b8-e099-48db-be9e-52b5a8859005" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/wiktordziadosz/uekstock/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/wiktordziadosz/uekstock/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/wiktordziadosz/uekstock/sales/Basket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/wiktordziadosz/uekstock/sales/BasketItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/wiktordziadosz/uekstock/sales/BasketStorage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/wiktordziadosz/uekstock/sales/CustomerData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/wiktordziadosz/uekstock/sales/JpaReservationStorage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/wiktordziadosz/uekstock/sales/ProductDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/wiktordziadosz/uekstock/sales/ProductDetailsProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/wiktordziadosz/uekstock/sales/SalesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/wiktordziadosz/uekstock/sales/SalesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/wiktordziadosz/uekstock/sales/SalesFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/wiktordziadosz/uekstock/sales/SalesFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/wiktordziadosz/uekstock/sales/offerting/OfferMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/wiktordziadosz/uekstock/sales/offerting/OfferMaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/wiktordziadosz/uekstock/sales/ordering/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/wiktordziadosz/uekstock/sales/ordering/Reservation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/wiktordziadosz/uekstock/sales/payment/PayUPaymentGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/wiktordziadosz/uekstock/sales/payment/PayUPaymentGateway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/wiktordziadosz/uekstock/payment/PayUTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/wiktordziadosz/uekstock/payment/PayUTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/wiktordziadosz/uekstock/sales/CollectingProductsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/wiktordziadosz/uekstock/sales/CollectingProductsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/wiktordziadosz/uekstock/sales/DummyProductDetailsProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/wiktordziadosz/uekstock/sales/DummyProductDetailsProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/wiktordziadosz/uekstock/sales/JpaReservationStorageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/wiktordziadosz/uekstock/sales/JpaReservationStorageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/wiktordziadosz/uekstock/sales/MakingAnOfferTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/wiktordziadosz/uekstock/sales/MakingAnOfferTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/wiktordziadosz/uekstock/sales/OrderingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/wiktordziadosz/uekstock/sales/OrderingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/wiktordziadosz/uekstock/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/wiktordziadosz/uekstock/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/wiktordziadosz/uekstock/sales/Basket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/wiktordziadosz/uekstock/sales/BasketItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/wiktordziadosz/uekstock/sales/BasketStorage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/wiktordziadosz/uekstock/sales/CustomerData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/wiktordziadosz/uekstock/sales/JpaReservationStorage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/wiktordziadosz/uekstock/sales/ProductDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/wiktordziadosz/uekstock/sales/ProductDetailsProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/wiktordziadosz/uekstock/sales/SalesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/wiktordziadosz/uekstock/sales/SalesController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/wiktordziadosz/uekstock/sales/SalesFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/wiktordziadosz/uekstock/sales/SalesFacade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/wiktordziadosz/uekstock/sales/offerting/OfferMaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/wiktordziadosz/uekstock/sales/offerting/OfferMaker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/wiktordziadosz/uekstock/sales/ordering/Reservation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/wiktordziadosz/uekstock/sales/ordering/Reservation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/wiktordziadosz/uekstock/sales/payment/PayUPaymentGateway.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/wiktordziadosz/uekstock/sales/payment/PayUPaymentGateway.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/wiktordziadosz/uekstock/payment/PayUTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/wiktordziadosz/uekstock/payment/PayUTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/wiktordziadosz/uekstock/sales/CollectingProductsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/wiktordziadosz/uekstock/sales/CollectingProductsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/wiktordziadosz/uekstock/sales/DummyProductDetailsProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/wiktordziadosz/uekstock/sales/DummyProductDetailsProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/wiktordziadosz/uekstock/sales/JpaReservationStorageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/wiktordziadosz/uekstock/sales/JpaReservationStorageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/wiktordziadosz/uekstock/sales/MakingAnOfferTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/wiktordziadosz/uekstock/sales/MakingAnOfferTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/wiktordziadosz/uekstock/sales/OrderingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/wiktordziadosz/uekstock/sales/OrderingTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
@@ -33,8 +69,8 @@
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="JPA Inspector" value="false" />
-        <entry key="JPA Palette" value="false" />
+        <entry key="JPA Inspector" value="true" />
+        <entry key="JPA Palette" value="true" />
         <entry key="JPA Structure" value="false" />
       </map>
     </option>
@@ -42,7 +78,7 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectId" id="24Fxgj2smsvvdGM2019XQdHGKJi" />
+  <component name="ProjectId" id="24KkV3GE1IoajKdD8b83Dr0pDSv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,8 +87,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.wiktordziadosz.uekstock.App" />
       <module name="uek-stock" />
@@ -66,20 +105,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in uek-stock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="uek-stock" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollectingProductsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="uek-stock" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:pl.wiktordziadosz.uekstock.sales.CollectingProductsTest]" />
+      </uniqueIds>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pl.wiktordziadosz.uekstock in uek-stock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="uek-stock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.wiktordziadosz.uekstock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.wiktordziadosz.uekstock" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.All in uek-stock" />
+        <item itemvalue="JUnit.pl.wiktordziadosz.uekstock in uek-stock" />
+        <item itemvalue="JUnit.CollectingProductsTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b44a002d-8007-4d3b-8cdf-c18c2011cc7a" name="Changes" comment="" />
-      <created>1643240290291</created>
+      <changelist id="a2f397b8-e099-48db-be9e-52b5a8859005" name="Changes" comment="" />
+      <created>1643386696635</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1643240290291</updated>
+      <updated>1643386696635</updated>
     </task>
     <servers />
   </component>
